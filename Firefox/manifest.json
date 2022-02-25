@@ -1,0 +1,17 @@
+{
+    "name": "Textise This",
+    "description": "An alterative text reader: Powered by textise.net",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Textise This",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js":["textise_this.js"]
+    }],
+    "permissions": [
+        "tabs"
+    ]
+}
