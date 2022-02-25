@@ -35,7 +35,16 @@
 
 To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
-[Chrome Setup](./Chrome/Chrome-Setup.md)
+```bash
+# Clone this repository
+$ git clone https://github.com/vedantm8/vedantm8.git
+
+# Go into the repository
+$ cd Textise-This
+```
+
+[Chrome Setup](./Chrome/Chrome-Setup.md) <br/>
+[Firefox Setup](./Firefox/Firefox-Setup.md)
 
 Note: If you made any changes after loading the extension onto Google Chrome, you'll need to 
 click the update button for your changes to be reflected 

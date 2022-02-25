@@ -1,16 +1,5 @@
-# In the command line, paste the following: 
-```bash
-# Clone this repository
-$ git clone https://github.com/vedantm8/vedantm8.git
-
-# Go into the repository
-$ cd Textise-This
-```
-
-### Using the Google Chrome browser, go to this link: <a href="chrome://extensions/">Chrome Extension</a>
-
-### Located at the top right of the page, make sure developer mode is enabled
-
-### Select 'Load Unpacked' from the top left of the page
-
-### Select the Textise-This Directory and the extension should be loaded into Google Chrome
+# Chrome Setup Installation Instructions 
+- Open Google Chrome and enter <a href="chrome://extensions/">chrome://extensions/</a> 
+- Located at the top right of the page, make sure developer mode is enabled
+- Select 'Load Unpacked' from the top left of the page
+- Open the extension's directory and select the manifest.json file
