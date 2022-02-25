@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://textise.wordpress.com/"><img src="https://textise.files.wordpress.com/2018/02/cropped-textise-logo61.png?w=200" alt="Markdownify" width="200"></a>
+  <img src="https://textise.files.wordpress.com/2018/02/cropped-textise-logo61.png?w=200" alt="Markdownify" width="200">
   <br>
   Textise This 
   <br>
