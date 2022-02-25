@@ -9,7 +9,7 @@
     },
     "content_scripts": [{
         "matches": ["<all_urls>"],
-        "js":["textise_this.js"]
+        "js":["background.js"]
     }],
     "permissions": [
         "tabs"
