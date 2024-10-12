@@ -36,33 +36,34 @@ If you don't already have **ViolentMonkey** installed, follow the appropriate li
     
     (function() {
         'use strict';
-    
-        // Function to get the current URL
-        let currURL = window.location.href;
-    
-        // Create a new button and add it to the page
-        let textiseButton = document.createElement('button');
-        textiseButton.id = 'textise-button';
-        textiseButton.textContent = 'View in Textise';
-        textiseButton.style.position = 'fixed';
-        textiseButton.style.bottom = '10px';
-        textiseButton.style.right = '10px';
-        textiseButton.style.zIndex = '10000';
-        textiseButton.style.padding = '10px';
-        textiseButton.style.backgroundColor = '#4CAF50';
-        textiseButton.style.color = 'white';
-        textiseButton.style.border = 'none';
-        textiseButton.style.cursor = 'pointer';
-    
-        document.body.appendChild(textiseButton);
-    
-        // Event listener to open Textise in a new tab when the button is clicked
-        textiseButton.addEventListener('click', function() {
-            let textiseURL = `https://www.textise.net/showText.aspx?strURL=${encodeURIComponent(currURL)}`;
-            window.open(textiseURL, '_blank');
-        });
-    
-    })();
+
+    // Function to get the current URL
+    let currURL = window.location.href;
+
+    // Create a new button and add it to the page
+    let textiseButton = document.createElement('button');
+    textiseButton.id = 'textise-button';
+    textiseButton.textContent = 'View in Textise';
+    textiseButton.style.position = 'fixed';
+    textiseButton.style.bottom = '10px';
+    textiseButton.style.right = '10px';
+    textiseButton.style.zIndex = '10000';
+    textiseButton.style.padding = '10px';
+    textiseButton.style.backgroundColor = '#4CAF50';
+    textiseButton.style.color = 'white';
+    textiseButton.style.border = 'none';
+    textiseButton.style.cursor = 'pointer';
+
+    document.body.appendChild(textiseButton);
+
+    // Event listener to open Textise in a new tab when the button is clicked
+    textiseButton.addEventListener('click', function() {
+        let textiseURL = `https://www.textise.net/showText.aspx?strURL=${encodeURIComponent(currURL)}`;
+        window.open(textiseURL, '_blank');
+    });
+
+})();
+
     ```
 
 ## Step 4: Save the Script
