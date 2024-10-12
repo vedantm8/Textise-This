@@ -44,7 +44,9 @@ $ cd Textise-This
 ```
 
 [Chrome Setup](./Chrome/Chrome-Setup.md) <br/>
-[Firefox Setup](./Firefox/Firefox-Setup.md)
+[Firefox Setup](./Firefox/Firefox-Setup.md) <br/>
+[Userscript Setup](./Userscript/Userscript-Setup.md) 
+
 
 Note: If you made any changes after loading the extension onto Google Chrome, you'll need to 
 click the update button for your changes to be reflected 
