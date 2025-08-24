@@ -33,6 +33,12 @@
 
 ## How To Use
 
+#### Browser Installation
+
+[To install the script](./Userscript/Userscript-Setup.md) 
+
+#### Local Installation
+
 To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
 ```bash
@@ -42,11 +48,6 @@ $ git clone https://github.com/vedantm8/vedantm8.git
 # Go into the repository
 $ cd Textise-This
 ```
-
-[Chrome Setup](./Chrome/Chrome-Setup.md) <br/>
-[Firefox Setup](./Firefox/Firefox-Setup.md) <br/>
-[Userscript Setup](./Userscript/Userscript-Setup.md) 
-
 
 Note: If you made any changes after loading the extension onto Google Chrome, you'll need to 
 click the update button for your changes to be reflected 
@@ -65,7 +66,6 @@ MIT
 
 ---
 
-> [Resume](https://vedantm8.github.io/#/resume) &nbsp;&middot;&nbsp;
 > GitHub [@vedantm8](https://github.com/vedantm8) &nbsp;&middot;&nbsp;
 > Medium [@vedantm8](https://medium.com/@vedantm8)
 
