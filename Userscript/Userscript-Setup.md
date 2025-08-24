@@ -1,4 +1,4 @@
-# Installation Guide for Textise This UserScript
+# Installation Guide for Textise 
 
 This guide will show you how to install the **Textise This UserScript** using **ViolentMonkey**, a free and open-source UserScript manager. The script will allow you to convert the current page into a text-only format using Textise.net.
 
